@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Form Registration</title>
+<head>
+<body>
+<form>
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname"><br>
+Email: <input type="text" name="email"><br>
+Do you have any experience?:<br>
+<input type="radio" name="response" value="yes">YES<br>
+<input type="radio" name="response" value="no">NO<br>
+</form>
+</body>
+</html> 
