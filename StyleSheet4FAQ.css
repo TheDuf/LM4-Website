@@ -1,0 +1,25 @@
+table 
+{
+	width:100%;
+	
+}
+th /*Table headers*/
+{
+	font-size:40px;
+	font-family:Andale Mono,times,sans-seriff;
+}
+td /*Table details*/
+{
+	font-size:20px;
+	font-family:arial;
+	text-align:center;
+}
+table,th,td{
+	border: 1px solid blue;
+}
+body
+{
+	background-image:url("WebBackground3.jpg");
+	background-repeat:no-repeat;
+	background-
+}
