@@ -1,0 +1,27 @@
+th,td{
+	color:white;
+	text-align:center;
+}
+table{
+	margin:auto;
+	border:2px solid white;
+	border-spacing:10px;
+}
+th{
+	font-size: 30px;
+	font-weight:bold;
+	font-family:"arial";
+}
+body{
+	background-image:url("WebBackground3.jpg"),url("bottomweb.png");
+	background-repeat:no-repeat,repeat;
+}
+footer{
+	color:white;
+	font-style: arial;
+	font-size:20px;
+	text-align:left;
+	background-color:#00008B;
+	height:150px;
+	width:100%;
+}
