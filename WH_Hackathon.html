@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel = "stylesheet" type="text/css" href="StyleSheet.css">
+	<title> 
+		Warren Hills Hackathon
+	</title>
+	<link rel = "icon" href= "http://www.promotionsnow.com/promosforacause/images/feat-images/2016-5-large-800a8.jpg">
+	<style type="text/css">
+		<!--Tabs-->
+		body{margin:0 auto; width:950px; position:relative;}
+		div.navMENU{width:100%; height:30px;}
+		div.navMENU ul{list-style-type:none; padding:0px; margin:0 auto;}
+		div.navMENU li{float:left; padding:1px; margin:0px;}
+		div.navMENU a{display:block; width:120px; border-radius:10px; -moz-border-radius:10px; -webkit-border:10px;}
+		a:link{font-weight:bold; color:#00ffff; background-color:black;text-align:center;text-decoration:none;
+		padding:5px;}
+		a:visited{color:#00ffff;}
+		a:hover{background-color:gray;}
+		<!--Tabs-->
+		
+	}
+	</style>
+</head>
+<body>
+	<h1 style="font-family:verdana;text-align:left";>Warren Hills Hackathon 2017</h1>
+	<div class="navMENU">
+			<ul>
+				<li> <a href="WH_Hackathon.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="FAQ.html">FAQ</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="2016hack.html">2016 Hackathon</a></li>
+				<li><a href="sponsors.html">Sponsors</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</div>
+	<div style="width:100%;height:40px;background-color:black">
+		<h1 style="color:white;text-align:center">- Home - </h1>
+	</div>
+	<!--SLIDESHOW-->
+	
+		<div class="slideshow-container">
+	  <div class="mySlides fade">
+		<div class="numbertext">1 / 7</div>
+		<img src="hacklogo.jpg" style="width:100%;height:500px;">
+		<div class="text"></div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">2 / 7</div>
+		<img src="SquadDeep.jpg" style="width:100%;height:500px;">
+		<div class="text">Last Year's Hackathon</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">3 / 7</div>
+		<img src="helloWorld.png" style="width:100%;height:500px;">
+		<div class="text">"Hello World"</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+		<div class="numbertext">4 / 7</div>
+		<img src="pi.jpg" style="width:100%;height:500px;">
+		<div class="text">Raspberry Pi 3</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+		<div class="numbertext">5 / 7</div>
+		<img src="VirtualReality.jpg" style="width:100%;height:500px;">
+		<div class="text" style= "color:black">Virtual Reality</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+		<div class="numbertext">6 / 7</div>
+		<img src="arduinocool.jpg" style="width:100%;height:500px;">
+		<div class="text">Arduino</div>
+	  </div>
+	  
+	  <div class="mySlides fade">
+		<div class="numbertext">7 / 7</div>
+		<img src="cupcakekb.jpg" style="width:100%;height:500px;">
+		<div class="text">Cupcake Keyboard</div>
+	  </div>
+
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	  <span class="dot" onclick="currentSlide(4)"></span> 
+	  <span class="dot" onclick="currentSlide(5)"></span> 
+	  <span class="dot" onclick="currentSlide(6)"></span>
+	  <span class="dot" onclick="currentSlide(7)"></span>
+	</div>
+	
+	<script>
+		var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none"; 
+		}
+		slideIndex++;
+		if (slideIndex> slides.length) {slideIndex = 1} 
+		slides[slideIndex-1].style.display = "block"; 
+		setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+	</script>
+	
+	<!--SLIDESHOW-->
+	<footer>
+		<p style= "text-align:center;font-size:30px"> Mission Statement</br>
+		"To Inspire Students To Not Fear a Line Of Code"<hr/></p>
+		<p> Website created by- Kyle McShea & Matthew Dufner </p> 
+	</footer>
+ </body>
+ 
+ </html>
