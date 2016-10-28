@@ -1,0 +1,33 @@
+table 
+{
+	width:100%;
+	
+}
+th /*Table headers*/
+{
+	font-size:40px;
+	font-family:Andale Mono,times,sans-seriff;
+}
+td /*Table details*/
+{
+	font-size:20px; 
+	font-family:arial;
+	text-align:center;
+}
+table,th,td{
+	border: 2px solid black;
+}
+body
+{
+	background-image:url("WebBackground3.jpg"),url("bottomWeb.png");
+	background-repeat:no-repeat,repeat;
+}
+footer{
+	color:white;
+	font-style: arial;
+	font-size:20px;
+	text-align:left;
+	background-color:#00008B;
+	height:150px;
+	width:100%;
+}
