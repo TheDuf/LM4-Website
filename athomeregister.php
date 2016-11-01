@@ -8,9 +8,10 @@ $experience = mysqli_real_escape_string($con, $_POST['experience']);
 $beento = mysqli_real_escape_string($con, $_POST['beento']);
 
 
-$query = "INSERT INTO RegistrationForm(FirstName, LastName, Email) VALUES('$firstname', '$lastname', '$email')";
+$query = "INSERT INTO RegistrationForm(FirstName, LastName, Email, Experience, Beento) 
+				VALUES('$firstname', '$lastname', '$email', '$experience', '$beento')";
 
-
+		
 
 if(!mysqli_query($con, $query))
 {
@@ -18,6 +19,6 @@ if(!mysqli_query($con, $query))
 }
 else
 {
-    header("Location: athomeform.php?msg=1");
+    header("Location: athomeform.html?msg=1");
 }
 ?>
